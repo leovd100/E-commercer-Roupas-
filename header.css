@@ -1,0 +1,71 @@
+
+.header{
+    background-color: black;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul{
+    
+    display: flex;
+}
+
+.menu ul li{
+   color: white;
+    margin-left: 15px;
+}
+
+.menu ul li a{
+    display: block;
+    
+    
+    padding: 5px;
+}
+/* Conteudo */
+/*Menu de produtos*/
+.produtos{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    
+    box-shadow: 0 0 8px black;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+.produtos .menu-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+.menu-produtos li a{
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
